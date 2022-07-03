@@ -1,0 +1,65 @@
+/* Section our advantages */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  &__title {
+    margin-bottom: 50px;
+    margin-top: 0;
+
+    color: var(--main-black-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+}
+
+.feature-list {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 10;
+
+  & .feature-list__item + .feature-list__item {
+    margin-left: 30px;
+  }
+  &__icon-section {
+    background-color: var(--section-team-background-color);
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+  }
+
+  &__icon-hero {
+    width: 70px;
+    height: 70px;
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    color: var(--main-black-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    margin-top: 10px;
+    margin-bottom: 0;
+    width: 270px;
+
+    color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+  }
+}

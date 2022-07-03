@@ -1,0 +1,38 @@
+/* Main
+ Эффективные решения для вашего бизнеса */
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  background-color: var(--main-black-color);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/team.jpg);
+  height: 600px;
+  max-width: 1600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  &__title {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: var(--main-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.37;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    text-align: center;
+    width: 700px;
+  }
+}
